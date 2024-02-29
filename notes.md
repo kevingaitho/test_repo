@@ -22,6 +22,15 @@ python -m venv virtual-env
 ## Activating Python Environment
 .\virtual-env\Scripts\activate
 
++ run the cmd: `python3 -m venv virtual-env`
++ activate the virtual environment: `./virtual-env/Scripts/activate`
++ to deactivate the virtual environment: `deactivate`
 
 ## Calling and running python
 python.exe -m pylint linting.py
+
+
+## GIT
+git remote add origin https://github.com/kevingaitho/test_repo.git
+git branch -M main
+git push -u origin main
